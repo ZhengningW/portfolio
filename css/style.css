@@ -1,0 +1,162 @@
+body,html{
+height: 100%;
+margin: 0;
+font-size: 18px;
+line-height: 1.8em;
+color: #666;
+}
+/*imgs*/
+.img2, .img3, .img4{
+position: relative;
+opacity: 0.80;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+
+.img1{
+  background-image: url('../img/img1.jpg');
+
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
+
+.img2{
+background-image: url('../img/img2.jpg');
+min-height: 500px;
+}
+
+.img3{
+background-image: url('../img/img3.jpg');
+min-height: 500px;
+}
+.img4{
+  background-image: url('../img/img4.jpg');
+  min-height: 500px;
+
+}
+/*imgs end*/
+
+/*sections*/
+.section1{
+text-align: center;
+padding: 50px 80px;
+
+}
+
+.section2{
+
+  text-align: center;
+  padding: 50px 80px;
+background-color: lightgray;
+color: #666;
+}
+
+.section3{
+  text-align: center;
+  padding: 50px 80px;
+background-color: gray;
+color: #ddd;
+}
+
+.section4{
+  text-align: center;
+  padding: 50px 80px;
+background-color: black;
+color: white;
+}
+/*sections end*/
+
+/*text*/
+.text1, .text2, .text3, .text4{
+  font-family: 'Londrina Sketch', cursive;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 50px;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+}
+/*text end*/
+
+/*border*/
+.text1 .border1{
+  font-size: 80px;
+  border-radius:70px;
+  opacity: 0.35;
+background: #111;
+color: white;
+padding:20px;
+}
+.text2 .border2{
+    border-radius: 70px;
+    opacity: 0.5;
+background: #111;
+color: white;
+padding:20px;
+}
+.text3 .border3{
+    border-radius: 70px;
+    opacity: 0.5;
+background: #111;
+color: white;
+padding:20px;
+}
+
+.text4 .border4{
+    border-radius: 70px;
+    opacity: 0.5;
+background: #111;
+color: white;
+padding:20px;
+}
+/*border end*/
+
+/*image effect*/
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+  margin-left: 35px;
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 50%;
+    padding: 7px;
+}
+
+.column img {
+    margin-top: 6px;
+    vertical-align: middle;
+}
+
+
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+/*end of image effect*/
